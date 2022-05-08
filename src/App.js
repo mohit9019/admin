@@ -20,6 +20,12 @@ function App() {
           <Route exact path="/templates" element={<Templatetable />} />
           <Route exact path="/transactions" element={<Transactiontable />} />
         </Routes>
+        {/* <Routes>
+          <Route exact path="/" element={checkLogin()?<AdminLogin />:<AdminAnalytics />} />
+          <Route exact path="/users" element={checkLogin()?<AdminLogin />:<Usertable />} />
+          <Route exact path="/templates" element={checkLogin()?<AdminLogin />:<Templatetable />} />
+          <Route exact path="/transactions" element={checkLogin()?<AdminLogin />:<Transactiontable />} />
+        </Routes> */}
     </div> 
     </div>
   );

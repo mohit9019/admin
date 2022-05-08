@@ -15,9 +15,16 @@
     border-collapse:separate;
     border-spacing:0 10px;
     width: 100%;
+    text-align: center;
     background-color: white;
     padding: 0 1.5%;
     border-radius: 10px ;
+}
+.table-cont i{
+    color:rgb(133, 14, 14) ;
+}
+.table-cont i:hover{
+    color: red;
 }
 .table-header:first-child {
     border-radius: 5px 0 0 5px;
@@ -31,9 +38,9 @@
 .table-header{
     background-color: #651cbe;
     padding: 1% 2%;
-    color: rgb(240, 238, 238);
-    font-size: 100%;
-    text-align: left;
+    color: rgb(221, 220, 220);
+    font-size: 90%;
+    text-align: center;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -48,7 +55,6 @@
 .table-row:hover{
     background-color: rgb(232, 244, 254);
     transform: translate(-3px -3px);
-    font-size: 95%;
 }
 .table-column{
     padding: .75% 2%;
