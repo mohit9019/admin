@@ -9,8 +9,8 @@ const headers = [
     { keys: "gender",  name: "Gender" },
     { keys: "email",  name: "Email" },
     { keys: "college",  name: "College" },
-    { keys: "course",  name: "Course" },
-    { keys: "remove", name:"Remove"}
+    { keys: "course",  name: "Course" }
+    // { keys: "remove", name:""}
   ];
   // const data = [
   //   { id: 1001, name: 'Devarshi Mistri', type:"Creator", gender:"male", dob:"15/03/2002", email:"devarshimistri@gmail.com",college:"KS",course:"MScIT" , remove:<i class="far fa-minus-circle"></i>},
