@@ -15,7 +15,6 @@ class ApiCaller{
         .catch(err => {
           console.log(err);
         })
-  
     }
 }
 export default ApiCaller;
